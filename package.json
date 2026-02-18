@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --root portfolio26",
-    "build": "tsc -b && vite build --root portfolio26",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview --root portfolio26"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -28,9 +28,5 @@
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.48.0",
     "vite": "^7.3.1"
-  },
-  "engines": {
-    "node": "20.x",
-    "npm": "10.x"
   }
 }
