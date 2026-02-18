@@ -1,0 +1,255 @@
+
+//Fonter för hemsidan
+$frederickaTheGreat: "Fredericka the Great", serif;
+$reenieBeenie: "Reenie Beanie", cursive;
+$rockSalt: "Rock Salt", cursive;
+$poppins: "Poppins", sans-serif;
+$fraunces: "Fraunces", serif;
+$syne: "Syne", sans-serif;
+$bubbles: "Rubik Bubbles", system-ui;
+$cube: "Rubik Glitch", system-ui;
+
+//Färger för hemsidan #517b99
+$main-color: #a07d74;
+$cream-color: #85544d;
+$frame-color: #FAF2EC;
+$contrast-color: #5A3532;
+$brown-color: rgb(24, 14, 9);
+
+body {
+    background-color: $cream-color;
+}
+
+.headerText {
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: $frederickaTheGreat;
+    font-weight: 400;
+    font-size: 370%;
+    color: $brown-color;
+    text-shadow: 5px 5px 0px lighten($main-color, 15%);
+}
+
+.headerContent {
+    background-color: $main-color;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    background-image: linear-gradient(lighten($main-color, 5%) 2px, transparent 3px), linear-gradient(to right, darken($main-color, 5%) 3px, $main-color 1px);
+    background-size: 90px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    z-index: -10;
+}
+
+.frame {
+    width: 15%;
+    border: 4px solid $cream-color;
+    transform: rotate(-5deg);
+    margin: 5px;
+    margin-left: 50px;
+}
+
+.cvprofile {
+    width: 100%;
+    transform: rotate(5deg);
+}
+
+#homeAbout {
+    background-color: $cream-color;
+    margin-top: -20px;
+    padding: 20px;
+}
+
+#aboutContent {
+    width: 40%;
+    margin: 0 auto;
+    background-color: $frame-color;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: $frame-color;
+    margin-top: -27px;
+    border: 3px solid darken($brown-color, 10%);
+    box-shadow: 10px 10px 0px $contrast-color;
+    position: relative;
+    z-index: 1;
+    padding-top: 40px;
+
+        h2 {
+        font-family: $rockSalt;
+        text-align: center;
+        margin-top: -30px;
+        color: $brown-color;
+    }
+
+    p {
+        margin: 0 auto;
+        padding-bottom: 10%;
+        font-size: large;
+    }
+}
+
+#maillink {
+    text-decoration: none;
+    
+    padding: 15px;
+    border: 2px solid $contrast-color;
+    margin-bottom: 20px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px darken($contrast-color, 10%), 5px 5px 3px darken($contrast-color, 10%);
+
+    &:hover {
+         box-shadow: 0px 0px 0px darken($contrast-color, 10%), 2px 2px 3px darken($contrast-color, 10%);
+            transform: translateY(3px);
+        }
+}
+
+#moreInfo {
+    @extend #maillink;
+}
+
+#buttonDiv {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#competensesContent {
+    position: relative;
+    z-index: 1;
+    margin-top: -30px;
+    padding-top: 20px;
+ 
+
+    #backgroundCompetence {
+        background-color: $main-color;
+        padding-top: 40px;
+        margin-top: -35px;
+        padding-bottom: 0px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    h2 {
+        font-family: $rockSalt;
+        font-size: 30px;
+        text-align: center;
+        padding-top:40px;
+        padding-bottom: 30px;
+        border-bottom: 5px solid darken($brown-color, 15%);
+    }
+
+
+}
+
+    .competence {
+        background-color: $frame-color;
+        width: 200px;
+        font-family: $poppins;
+        box-shadow: 10px 10px 0px darken($contrast-color, 10%);
+        border: 4px solid darken($contrast-color, 10%);
+        text-align: center;
+        padding: 20px;
+
+
+        ul {
+            list-style-type: none;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            line-height: 30px;
+            
+        }
+
+        h3 {
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 2px solid darken($brown-color, 10%);
+        }
+    }
+
+
+
+    #competenceTitle h2{
+        background-color: $frame-color;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        color: black;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    #buttonsCompetence {
+        background-color: $main-color;
+        border-bottom: 5px solid darken($contrast-color, 10%);
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 50px;
+
+        #projectBtn {
+            background-color: $frame-color;
+            text-decoration: none;
+            padding: 10px;
+            color: black;
+            border: 2px solid darken($contrast-color, 10%);
+            border-radius: 10px;
+            box-shadow: 4px 4px 0px darken($contrast-color, 10%), 6px 6px 3px darken($contrast-color, 10%);
+
+            &:hover {
+                 box-shadow: 0px 0px 0px darken($contrast-color, 10%), 3px 3px 3px darken($contrast-color, 10%);
+            transform: translateY(3px);
+            }
+
+        }
+
+        #cvBtn {
+            @extend #projectBtn;
+        }
+    }
+
+       @media (max-width: 700px) {
+
+        .cvprofile {
+            display: none;
+        }
+
+        .frame {
+            display: none;
+        }
+       }
+
+    @media (max-width: 1000px) {
+        #aboutContent {
+            width: 80%;
+        }
+
+        .headerText {
+            font-size: 280%;
+        }
+
+        .frame {
+            width: 17%;
+        }
+
+    }
+
+        @media (min-width: 1500px) {
+        #aboutContent {
+            width: 30%;
+        }
+
+        h1 {
+            font-size: 450%;
+        }
+    }
