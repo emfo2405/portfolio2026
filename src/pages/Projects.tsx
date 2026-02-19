@@ -29,7 +29,8 @@ function Projects() {
             link="https://furniturestore-ramverk.netlify.app/"
             extraInfo="En backendtjänst skapades med full CRUD-funktionalitet för att lägga till kategorier/produkter och hantera lagersaldo. Backendtjänsten skapades
             med LoopBack och kopplades till en databas skapad med MongoDb. Frontend-tjänsten skapades med Vue och kopplades till den skapade backendtjänsten. För design
-            användes CSS-ramverket Bootstrap."
+            användes CSS-ramverket Bootstrap. Backend-tjänsten är uppladdad på Render och det tar lite tid innan allt är laddat. Vid testning, låt helst kategorierna 
+            ladda klart innan en ny användare skapas."
              />
 
             <OneProject
@@ -38,7 +39,8 @@ function Projects() {
             imageAlt="En bild på startsidan av portfolio-hemsidan för Emma Forsmalm"
             description="En portfolio skapad med React och TypeScript."
             link="/"
-            extraInfo="Den här sidan skapades som ett hobbyprojekt för att lära mig React samt för att skapa en sida att visa upp mina projekt på."
+            extraInfo="Den här sidan skapades som ett hobbyprojekt för att lära mig React samt för att skapa en sida att visa upp mina projekt på. 
+            Webbplatsen är uppladdad på Netlify."
              />
 
     </div>

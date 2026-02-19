@@ -14,6 +14,7 @@ function Navbar() {
     return (
         <div id='nav'>
         <nav className='navbar'>
+           <NavLink to="/"><img src='/EF-logo2.png' id="logo" alt='Bokstäverna E och F i en sluttagg'></img></NavLink>
                   <ul className='nav-list'>
                     <li><NavLink className={({ isActive }) => isActive ? "navLink active" : "navLink"} to="/">Hem</NavLink></li>
                     <li><NavLink className={({ isActive }) => isActive ? "navLink active" : "navLink"} to="/About">Om mig</NavLink></li>
@@ -23,6 +24,7 @@ function Navbar() {
         </nav>
 
                 <nav className='navbar-mobile'>
+                                  <NavLink to="/"><img src='/EF-logo2.png' id="logo-mobile" alt='Bokstäverna E och F i en sluttagg'></img></NavLink>
                     
                 {!menuOpen && (
                 <span className="material-symbols-outlined menu-icon" onClick={toggleMenu}>menu</span>

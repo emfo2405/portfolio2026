@@ -253,3 +253,9 @@ body {
             font-size: 450%;
         }
     }
+
+    @media (max-width: 800px) {
+        .headerContent{
+            padding-top: 120px;
+        }
+    }

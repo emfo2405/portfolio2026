@@ -19,6 +19,12 @@ body {
     overflow-x: hidden;
 }
 
+#logo, #logo-mobile {
+    width: 100px;
+}
+
+
+
 .navbar {
     background-color: $main-color;
     display: flex;
@@ -86,6 +92,7 @@ width: 100%;
     display:none;
     padding-top: 70px;
     z-index: 20;
+
     
 
 ul {
@@ -149,6 +156,8 @@ ul {
 
 
 
+
+
 }
 
 @media (max-width: 800px) {
@@ -164,6 +173,12 @@ ul {
         width: 100%;
         z-index: 10;
 
+        #logo-mobile {
+            width: 80px;
+            padding-left: 30px;
+            margin-top: -100px;
+        }
+
         a::before {
             width: 25%;
             left: 37.5%;
@@ -173,7 +188,7 @@ ul {
     .menu-icon, .close-icon {
         position: absolute;
         right: 5px;
-        top: 0px;
+        top: 8px;
         font-size: 2rem;
         cursor: pointer;
     }
