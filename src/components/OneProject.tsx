@@ -9,10 +9,12 @@ type ProjectProps = {
     description: string;
     link: string;
     extraInfo: string;
+    gitlink: string;
+    gitlink2?: string;
 };
 
 
-function OneProject({title, image, imageAlt, description, link, extraInfo}: ProjectProps) {
+function OneProject({title, image, imageAlt, description, link, extraInfo, gitlink, gitlink2}: ProjectProps) {
 const [show, setShow] = useState(false);
 
 return (
@@ -29,6 +31,10 @@ arrow_drop_down
 </span></>)}</button>
             {show && <p className='lineheight'>{extraInfo}</p>}
             <a className="projectlink" target='_blank' href={link}>Till sidan</a>
+            <div className='gitlinks'>
+            <a className='gitLink' target='_blank' href={gitlink}>Visa Git-repo</a>
+            {gitlink2 && <a className='gitLink' target='_blank' href={gitlink2}>Visa Git-repo backend</a>}
+            </div>
             </div>
         </div>
 

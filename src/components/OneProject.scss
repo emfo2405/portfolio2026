@@ -58,7 +58,7 @@ $brown-color: rgb(24, 14, 9);
             width: 100px;
             margin: 0 auto;
             margin-top: 20px;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
 
             &:hover {
                 background-color: lighten($main-color, 8%);
@@ -123,6 +123,18 @@ $brown-color: rgb(24, 14, 9);
         margin: 0 auto;
         margin-top: 10px;
         margin-bottom: -60px;
+    }
+
+    .gitLink {
+        color: darken($cream-color, 5%);
+        padding: 10px;
+        text-underline-offset: 5px;
+    }
+
+    .gitlinks {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
     }
 
     .moreInfo:hover {

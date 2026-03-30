@@ -64,12 +64,12 @@ measurement methods"
 <Work 
 title = "Administrativ assistent"
 year = "2018-2023" 
-description = "Transkribering av intervjuer i forskningsprojekt på institutionen för didaktik och pedagogisk profession, institutionen för pedagogik och specialpedagogik samt institutionen för pedagogik, kommunikation och lärande."/>
+description = "Transkribering av intervjuer i forskningsprojekt på institutionerna för didaktik och pedagogisk profession, pedagogik och specialpedagogik samt pedagogik, kommunikation och lärande."/>
 
 <Work 
 title = "Administrativ assistent"
 year = "2016-2025" 
-description = "Inmatning av data och arkivering av nationella prov i religionskunskap, samhällskunskap, engelska och spanska på institutionen för didaktik och pedagogisk profession samt institutionen för pedagogik och specialpedagogik."/>
+description = "Inmatning av data och arkivering av nationella prov i religionskunskap, samhällskunskap, engelska och spanska på institutionerna för didaktik och pedagogisk profession samt pedagogik och specialpedagogik."/>
 
 
              </div>
