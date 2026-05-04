@@ -31,9 +31,8 @@ function Projects() {
             title="Bokklubb"
             image="bokhörnan.jpg"
             imageAlt="En bild på startsidan av bokklubbshemsidan bokhörnan"
-            description="En hemsida skapad för en bokklubb i syfte att administrera och integragera med den. Azure SQL databas används 
-            och webbplatsen är även uppladdad till Azure. Webbplatsen är skapad som ett MVC-projekt med EF, Identity och AI-implementation. Skapad med C# och .NET."
-            link="https://bookclub-emfo.azurewebsites.net/"
+            description="En hemsida skapad för en bokklubb i syfte att administrera och integragera med den. Postgres har använts som databas och applikationen är publicerad på railway. Webbplatsen är skapad som ett MVC-projekt med EF, Identity och AI-implementation. Skapad med C# och .NET."
+            link="https://bookclub-dotnet-production.up.railway.app/"
             gitlink="https://github.com/emfo2405/BookClub-dotnet.git"
             extraInfo="Webbplatsen skapades som ett MVC-projekt där även Entity Framework och Identity användes för att både 
             kunna scaffolda fram CRUD-funktionalitet och även skapa funktionalitet för att registrera och hantera inloggningar. Webbplatsen 
