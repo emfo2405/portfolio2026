@@ -94,3 +94,19 @@ h2 {
         width: 400px;
     }
 }
+
+@media(max-width: 550px) {
+    .cvInput, .studiesInput, .articleInput {
+        width: 250px;
+    }
+
+    #cv {
+        h2 {
+            font-size: 140%;
+        }
+    }
+
+    #cvTitle {
+        margin-bottom: -40px;
+    }
+}

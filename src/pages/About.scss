@@ -73,3 +73,18 @@ font-size: 140%;
         }
 
     }
+
+    @media (max-width: 500px) {
+        #AboutTitle {
+            font-size: 180%;
+        }
+
+        #aboutMeDiv {
+        h2 {
+            font-size: 100%;
+            text-align: left;
+            margin-left: 0;
+        }            
+        }
+
+    }

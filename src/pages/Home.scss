@@ -118,6 +118,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 30px;
+    text-align: center;
 }
 
 #competensesContent {
@@ -257,5 +258,28 @@ body {
     @media (max-width: 800px) {
         .headerContent{
             padding-top: 120px;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .headerText {
+            font-size: 180%;
+        }
+
+        #buttonDiv{
+            display: flex;
+            flex-direction: column;
+        }
+
+        #aboutContent {
+            h2 {
+                font-size: 150%;
+            }
+        }
+
+        #competenceTitle{
+            h2 {
+                font-size: 150%;
+            }
         }
     }
