@@ -10,7 +10,7 @@ function About() {
         <h1 id="AboutTitle">- Om mig -</h1>
         <div id="aboutMeDiv">
             <h2>Studier</h2>
-            <p className='lineheight'>Jag läser just nu mitt sista år på webbutvecklingsprogrammet vid Mittuniversitetet. Under programmets
+            <p className='lineheight'>Jag har en examen i webbutveckling från Mittuniversitetet. Under programmets
                 gång har jag lärt mig otroligt mycket och fått en bred kompetens inom olika programmeringsspråk, 
                 verktyg och metoder. De språk som jag har arbetat med är HTML, PHP, JavaScript, TypeScript och C#. 
                 Genom kursprojekt och uppgifter har jag även fått prova på olika ramverk och utvecklingsverktyg vilket
