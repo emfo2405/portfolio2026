@@ -34,7 +34,7 @@ function Home() {
         <div id="aboutContent">
         <h2>- Om mig -</h2>
         <p>Hej! <br /> <br /> Jag heter Emma och har en examen i Webbutveckling från Mittuniversitetet.
-            Jag är bosatt i Göteborg och läser hela utbildningen på distans. Under programmets gång har jag 
+            Under programmets gång har jag 
             fått erfarenhet inom flera olika områden, däribland att bygga fullskaliga webbapplikationer med 
             olika verktyg och i olika programmeringsspråk. Jag har även läst kurser inriktade på frontend och backend 
             såväl som fullstack-utveckling. Den här utbildningen har gett mig en bred kompetens samt praktisk 
